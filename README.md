@@ -1,1 +1,1 @@
-# react-portfolio2
+# React Portfolio
