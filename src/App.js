@@ -1,8 +1,12 @@
 import NavBar from './NavBar'
+import About from './About'
 
 const App = () => {
   return (
-    <NavBar />
+    <>
+      <NavBar />
+      <About />
+    </>
   )
 }
 
