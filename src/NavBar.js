@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  appbarColor: {
+    backgroundColor: '#3E3D3D'
+  }
 }))
 
 const NavBar = () => {
@@ -21,7 +24,7 @@ const NavBar = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.appbarColor}>
         <Toolbar>
           <Button color="inherit">About</Button>
           <Button color="inherit">Projects</Button>
