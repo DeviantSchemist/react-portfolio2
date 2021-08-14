@@ -19,9 +19,15 @@ const useStyles = makeStyles((theme) => ({
     margin: 'auto'
   },
   gridMargin: {
-    marginTop: '6%'
+    marginTop: '3%',
   },
-  gridText: {
+  gridTitle: {
+    textAlign: 'center',
+    marginBottom: '4%',
+    fontWeight: 'bold',
+    color: 'white'
+  },
+  aboutText: {
     marginLeft: '-4%'
   },
   paperBackground: {
@@ -39,13 +45,18 @@ const About = () => {
   return (
     <div className={classes.root}>
       <Grid container spacing={0} className={classes.gridMargin}>
+        <Grid item xs={12}>
+          <Typography variant="h1" gutterBottom className={classes.gridTitle}>
+            MICHAEL NGO
+          </Typography>
+        </Grid>
         <Grid item xs={6}>
           <Avatar alt="Poodle" src={Poodle} className={classes.large} />
         </Grid>
-        <Grid item xs={6} className={classes.gridText}>
+        <Grid item xs={6} className={classes.aboutText}>
           <Paper elevation={3} variant="outlined" className={classes.paperBackground}>
             <Typography variant="h4" gutterBottom className={classes.typo}>
-              My name is Michael Ngo, aspiring full stack web developer. Here, you can see a variety of projects
+              Aspiring full stack web developer. Here, you can see a variety of projects
               that I have worked on.
             </Typography>
           </Paper>
