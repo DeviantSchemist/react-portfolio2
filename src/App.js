@@ -1,6 +1,7 @@
 import NavBar from './NavBar'
 import About from './About'
 import Projects from './Projects'
+import Skills from './Skills'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <NavBar />
       <About />
       <Projects />
+      <Skills />
     </>
   )
 }
