@@ -4,6 +4,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
+import Button from '@material-ui/core/Button';
 import Poodle from './Poodle.jpg'
 
 const useStyles = makeStyles((theme) => ({
@@ -56,8 +57,16 @@ const About = () => {
         <Grid item xs={6} className={classes.aboutText}>
           <Paper elevation={3} variant="outlined" className={classes.paperBackground}>
             <Typography variant="h4" gutterBottom className={classes.typo}>
-              Aspiring full stack web developer. Here, you can see a variety of projects
-              that I have worked on.
+              <Grid container spacing={10}>
+                <Grid item>
+                  <p>
+                    Aspiring full stack web developer. Here, you can see my projects and skillset.
+                  </p>
+                </Grid>
+                <Grid item>
+                  <Button variant="contained" color="primary">Resume</Button>
+                </Grid>
+              </Grid>
             </Typography>
           </Paper>
         </Grid>

@@ -7,6 +7,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
+import Project1 from './Project1.png'
+import Project2 from './Project2.png'
 
 const useStyles = makeStyles(() => ({
   cards: {
@@ -47,27 +49,27 @@ const Projects = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Project 1"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    image={Project1}
+                    title="Project 1"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Lizard
+                      Out In
                     </Typography>
                     <Typography variant="body2" component="p">
-                      Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                      across all continents except Antarctica
+                      A site for users to decide whether they want to eat out or
+                      make their own food at home.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button size="small" className={classes.buttonColor}>
-                    Share
+                  <Button size="small" className={classes.buttonColor} href="https://github.com/DeviantSchemist/Project1" target="_blank">
+                    Repo
                   </Button>
-                  <Button size="small" className={classes.buttonColor}>
-                    Learn More
+                  <Button size="small" className={classes.buttonColor} href="https://deviantschemist.github.io/Project1/" target="_blank">
+                    Site
                   </Button>
                 </CardActions>
               </Card>
@@ -77,27 +79,27 @@ const Projects = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Project 2"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    image={Project2}
+                    title="Project 2"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Lizard
+                      ComicCol
                     </Typography>
                     <Typography variant="body2" component="p">
-                      Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                      across all continents except Antarctica
+                      A site for users to organize their collection of comics. Features
+                      intuitive UI design and backend functionality.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button size="small" className={classes.buttonColor}>
-                    Share
+                  <Button size="small" className={classes.buttonColor} href="https://github.com/CharlotteFrancis/ComicCol" target="_blank">
+                    Repo
                   </Button>
-                  <Button size="small" className={classes.buttonColor}>
-                    Learn More
+                  <Button size="small" className={classes.buttonColor} href="https://comiccol.herokuapp.com/" target="_blank">
+                    Site
                   </Button>
                 </CardActions>
               </Card>
@@ -107,27 +109,27 @@ const Projects = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Project 3"
                     height="140"
                     image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    title="Project 3"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Lizard
+                      PawPal
                     </Typography>
                     <Typography variant="body2" component="p">
-                      Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                      across all continents except Antarctica
+                      A site for users to find their favorite pets available in their area
+                      that are up for adoption.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button size="small" className={classes.buttonColor}>
-                    Share
+                  <Button size="small" className={classes.buttonColor} href="https://github.com/CharlotteFrancis/paw-pal" target="_blank">
+                    Repo
                   </Button>
                   <Button size="small" className={classes.buttonColor}>
-                    Learn More
+                    Site
                   </Button>
                 </CardActions>
               </Card>
