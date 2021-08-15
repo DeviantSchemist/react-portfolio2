@@ -2,6 +2,7 @@ import NavBar from './NavBar'
 import About from './About'
 import Projects from './Projects'
 import Skills from './Skills'
+import Contact from './Contact'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <About />
       <Projects />
       <Skills />
+      <Contact />
     </>
   )
 }
