@@ -5,6 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles(() => ({
   contactTitle: {
@@ -55,6 +56,11 @@ const Contact = () => {
                 <Grid item>
                   <ul>
                     <li><FacebookIcon /> Facebook</li>
+                  </ul>
+                </Grid>
+                <Grid item>
+                  <ul>
+                    <li><EmailIcon /> placeholder@gmail.com</li>
                   </ul>
                 </Grid>
               </Grid>
