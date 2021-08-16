@@ -30,7 +30,7 @@ const Skills = () => {
     <div>
       <Grid container spacing={0}>
         <Grid item xs={12}>
-          <Typography variant="h2" gutterBottom className={classes.skillsTitle}>
+          <Typography variant="h2" gutterBottom className={classes.skillsTitle} id="skillPage">
             SKILLS
           </Typography>
           <hr width="70%"></hr>

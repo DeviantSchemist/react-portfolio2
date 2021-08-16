@@ -37,7 +37,7 @@ const Projects = () => {
     <div>
       <Grid container spacing={0}>
         <Grid item xs={12}>
-          <Typography variant="h2" gutterBottom className={classes.projectTitle}>
+          <Typography variant="h2" gutterBottom className={classes.projectTitle} id="projectPage">
             PROJECTS
           </Typography>
           <hr width="70%"></hr>
