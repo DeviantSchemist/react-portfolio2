@@ -27,10 +27,10 @@ const Skills = () => {
   const classes = useStyles()
 
   return (
-    <div>
+    <div id="skillPage">
       <Grid container spacing={0}>
         <Grid item xs={12}>
-          <Typography variant="h2" gutterBottom className={classes.skillsTitle} id="skillPage">
+          <Typography variant="h2" gutterBottom className={classes.skillsTitle}>
             SKILLS
           </Typography>
           <hr width="70%"></hr>

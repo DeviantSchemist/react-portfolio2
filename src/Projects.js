@@ -39,9 +39,9 @@ const Projects = () => {
 
   return (
     <div>
-      <Grid container spacing={0}>
+      <Grid container spacing={0} id="projectPage">
         <Grid item xs={12}>
-          <Typography variant="h2" gutterBottom className={classes.projectTitle} id="projectPage">
+          <Typography variant="h2" gutterBottom className={classes.projectTitle}>
             PROJECTS
           </Typography>
           <hr width="70%"></hr>

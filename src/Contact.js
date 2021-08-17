@@ -31,10 +31,10 @@ const Contact = () => {
   const classes = useStyles()
 
   return (
-    <div>
+    <div id="contactPage">
       <Grid container spacing={0}>
         <Grid item xs={12}>
-          <Typography variant="h2" gutterBottom className={classes.contactTitle} id="contactPage">
+          <Typography variant="h2" gutterBottom className={classes.contactTitle}>
             CONTACT
           </Typography>
           <hr width="70%"></hr>

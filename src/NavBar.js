@@ -21,7 +21,7 @@ const NavBar = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.appbarColor}>
+      <AppBar position="fixed" className={classes.appbarColor}>
         <Toolbar>
           <Button color="inherit" href="#aboutPage">About</Button>
           <Button color="inherit" href="#projectPage">Projects</Button>

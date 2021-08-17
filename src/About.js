@@ -44,10 +44,10 @@ const About = () => {
   const classes = useStyles()
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="aboutPage">
       <Grid container spacing={10} className={classes.gridMargin}>
         <Grid item xs={12}>
-          <Typography variant="h1" gutterBottom className={classes.gridTitle} id="aboutPage">
+          <Typography variant="h1" gutterBottom className={classes.gridTitle}>
             MICHAEL NGO
           </Typography>
         </Grid>
