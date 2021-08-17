@@ -10,6 +10,9 @@ import Button from '@material-ui/core/Button';
 import Project1 from './Project1.png'
 import Project2 from './Project2.png'
 import Project3 from './Project3.png'
+import NoteTaker from './NoteTaker.png'
+import SurveyForm from './SurveyForm.png'
+import Scheduler from './Scheduler.png'
 
 const useStyles = makeStyles(() => ({
   cards: {
@@ -42,9 +45,7 @@ const Projects = () => {
             PROJECTS
           </Typography>
           <hr width="70%"></hr>
-        </Grid>
-        <Grid item xs={12} className={classes.cardMargin}>
-          <Grid container spacing={10} justifyContent="center">
+          <Grid container spacing={10} justifyContent="center" className={classes.cardMargin}>
             <Grid item>
               <Card className={classes.cards}>
                 <CardActionArea>
@@ -137,6 +138,7 @@ const Projects = () => {
             </Grid>
           </Grid>
         </Grid>
+        
         <Grid item xs={12} className={classes.cardMargin}>
           <Grid container spacing={10} justifyContent="center">
             <Grid item>
@@ -144,27 +146,27 @@ const Projects = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Note Taker"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    image={NoteTaker}
+                    title="Note Taker"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Lizard
+                      Note Taker
                     </Typography>
                     <Typography variant="body2" component="p">
-                      Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                      across all continents except Antarctica
+                      A site for users to create notes of whatever they please. Can be used as a to do list,
+                      or to keep track of anything and everything in life.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button size="small" className={classes.buttonColor}>
-                    Share
+                  <Button size="small" className={classes.buttonColor} href="https://github.com/DeviantSchemist/NoteTaker" target="_blank">
+                    Repo
                   </Button>
-                  <Button size="small" className={classes.buttonColor}>
-                    Learn More
+                  <Button size="small" className={classes.buttonColor} href="https://damp-hollows-38248.herokuapp.com/" target="_blank">
+                    Site
                   </Button>
                 </CardActions>
               </Card>
@@ -174,27 +176,26 @@ const Projects = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Survey Form"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    image={SurveyForm}
+                    title="Survey Form"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Lizard
+                      Survey Form
                     </Typography>
                     <Typography variant="body2" component="p">
-                      Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                      across all continents except Antarctica
+                      A survey form made for freecodecamp's responsive web design course.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button size="small" className={classes.buttonColor}>
-                    Share
+                  <Button size="small" className={classes.buttonColor} href="https://github.com/DeviantSchemist/SurveyForm" target="_blank">
+                    Repo
                   </Button>
-                  <Button size="small" className={classes.buttonColor}>
-                    Learn More
+                  <Button size="small" className={classes.buttonColor} href="https://codepen.io/DeviantSchemist/pen/poeZVWa" target="_blank">
+                    Site
                   </Button>
                 </CardActions>
               </Card>
@@ -204,27 +205,27 @@ const Projects = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Scheduler"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    image={Scheduler}
+                    title="Scheduler"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Lizard
+                      Scheduler
                     </Typography>
                     <Typography variant="body2" component="p">
-                      Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                      across all continents except Antarctica
+                      Daily scheduling site for users to keep track of their activities throughout the day.
+                      Tasks are separated by time blocks.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button size="small" className={classes.buttonColor}>
-                    Share
+                  <Button size="small" className={classes.buttonColor} href="https://github.com/DeviantSchemist/Scheduler" target="_blank">
+                    Repo
                   </Button>
-                  <Button size="small" className={classes.buttonColor}>
-                    Learn More
+                  <Button size="small" className={classes.buttonColor} href="https://deviantschemist.github.io/Scheduler/" target="_blank">
+                    Site
                   </Button>
                 </CardActions>
               </Card>
