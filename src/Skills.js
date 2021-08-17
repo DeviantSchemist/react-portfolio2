@@ -13,9 +13,9 @@ const useStyles = makeStyles(() => ({
   paperBackground: {
     backgroundColor: '#3E3D3D',
     marginTop: '2%',
-    marginLeft: '5%',
-    marginRight: '5%',
-    marginBottom: '5%'
+    marginLeft: '15%',
+    marginRight: '15%',
+    marginBottom: '15%'
   },
   typo: {
     color: 'white',
@@ -43,30 +43,35 @@ const Skills = () => {
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Python</li>
                   </ul>
                 </Grid>
                 <Grid item>
                   <ul>
                     <li>NodeJS</li>
                     <li>Express</li>
+                    <li>GraphQL</li>
                   </ul>
                 </Grid>
                 <Grid item>
                   <ul>
                     <li>Javascript</li>
                     <li>jQuery</li>
+                    <li>Typescript</li>
                   </ul>
                 </Grid>
                 <Grid item>
                   <ul>
                     <li>MongoDB</li>
                     <li>MySQL</li>
+                    <li>Heroku</li>
                   </ul>
                 </Grid>
                 <Grid item>
                   <ul>
                     <li>ReactJS</li>
                     <li>Material UI</li>
+                    <li>GitHub</li>
                   </ul>
                 </Grid>
               </Grid>

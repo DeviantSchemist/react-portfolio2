@@ -17,9 +17,9 @@ const useStyles = makeStyles(() => ({
   paperBackground: {
     backgroundColor: '#3E3D3D',
     marginTop: '2%',
-    marginLeft: '5%',
-    marginRight: '5%',
-    marginBottom: '5%'
+    marginLeft: '15%',
+    marginRight: '15%',
+    marginBottom: '15%'
   },
   typo: {
     color: 'white',
