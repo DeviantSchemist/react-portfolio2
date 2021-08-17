@@ -61,7 +61,9 @@ const Contact = () => {
                 </Grid>
                 <Grid item>
                   <ul>
-                    <li><EmailIcon /> placeholder@gmail.com</li>
+                    <Link href="mailto:michaelngo0000@gmail.com" color="inherit" target="_blank" rel="noopener">
+                      <li><EmailIcon /> michaelngo0000@gmail.com</li>
+                    </Link>
                   </ul>
                 </Grid>
               </Grid>
