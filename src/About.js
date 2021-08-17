@@ -45,7 +45,7 @@ const About = () => {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={0} className={classes.gridMargin}>
+      <Grid container spacing={10} className={classes.gridMargin}>
         <Grid item xs={12}>
           <Typography variant="h1" gutterBottom className={classes.gridTitle} id="aboutPage">
             MICHAEL NGO

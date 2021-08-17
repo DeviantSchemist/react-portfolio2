@@ -9,6 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Project1 from './Project1.png'
 import Project2 from './Project2.png'
+import Project3 from './Project3.png'
 
 const useStyles = makeStyles(() => ({
   cards: {
@@ -111,7 +112,7 @@ const Projects = () => {
                     component="img"
                     alt="Project 3"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    image={Project3}
                     title="Project 3"
                   />
                   <CardContent>
@@ -128,7 +129,7 @@ const Projects = () => {
                   <Button size="small" className={classes.buttonColor} href="https://github.com/CharlotteFrancis/paw-pal" target="_blank">
                     Repo
                   </Button>
-                  <Button size="small" className={classes.buttonColor}>
+                  <Button size="small" className={classes.buttonColor} href="https://paw-pal-bootcamp.herokuapp.com/" target="_blank">
                     Site
                   </Button>
                 </CardActions>
