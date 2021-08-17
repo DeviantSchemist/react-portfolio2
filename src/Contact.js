@@ -4,7 +4,6 @@ import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
 import Link from '@material-ui/core/Link';
 
@@ -30,7 +29,6 @@ const useStyles = makeStyles(() => ({
 
 const Contact = () => {
   const classes = useStyles()
-  const preventDefault = event => event.preventDefault()
 
   return (
     <div id="contactPage">
