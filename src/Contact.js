@@ -6,6 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles(() => ({
   contactTitle: {
@@ -29,6 +30,7 @@ const useStyles = makeStyles(() => ({
 
 const Contact = () => {
   const classes = useStyles()
+  const preventDefault = event => event.preventDefault()
 
   return (
     <div id="contactPage">
@@ -45,17 +47,16 @@ const Contact = () => {
               <Grid container spacing={10} justifyContent="center">
                 <Grid item>
                   <ul>
-                    <li><GitHubIcon /> Github</li>
+                    <Link href="https://github.com/DeviantSchemist" color="inherit" target="_blank" rel="noopener">
+                      <li><GitHubIcon /> Github</li>
+                    </Link>
                   </ul>
                 </Grid>
                 <Grid item>
                   <ul>
-                    <li><LinkedInIcon /> LinkedIn</li>
-                  </ul>
-                </Grid>
-                <Grid item>
-                  <ul>
-                    <li><FacebookIcon /> Facebook</li>
+                    <Link href="https://www.linkedin.com/in/michael-ngo-40415486/" color="inherit" target="_blank" rel="noopener">
+                      <li><LinkedInIcon /> LinkedIn</li>
+                    </Link>
                   </ul>
                 </Grid>
                 <Grid item>
