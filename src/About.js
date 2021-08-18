@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import Poodle from './Poodle.jpg'
+import Resume from './Resume.pdf'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -64,7 +65,7 @@ const About = () => {
                   </p>
                 </Grid>
                 <Grid item>
-                  <Button variant="contained" color="primary">Resume</Button>
+                  <Button variant="contained" color="primary" href={Resume} target="_blank">Resume</Button>
                 </Grid>
               </Grid>
             </Typography>
