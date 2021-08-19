@@ -62,6 +62,7 @@ const About = () => {
                 <Grid item>
                   <p>
                     Aspiring full stack web developer. Here, you can see my projects and skillset.
+                    Always eager to learn and grow, professionally as well as personally.
                   </p>
                 </Grid>
                 <Grid item>
