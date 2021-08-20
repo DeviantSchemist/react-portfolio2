@@ -5,8 +5,8 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
-import Poodle from './Poodle.jpg'
 import Resume from './Resume.pdf'
+import Photo from './ProfessionalPhoto.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -53,7 +53,7 @@ const About = () => {
           </Typography>
         </Grid>
         <Grid item xs={6}>
-          <Avatar alt="Poodle" src={Poodle} className={classes.large} />
+          <Avatar alt="Profile Picture" src={Photo} className={classes.large} />
         </Grid>
         <Grid item xs={6} className={classes.aboutText}>
           <Paper elevation={3} variant="outlined" className={classes.paperBackground}>
