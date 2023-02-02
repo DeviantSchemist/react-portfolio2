@@ -61,8 +61,9 @@ const About = () => {
               <Grid container spacing={10}>
                 <Grid item>
                   <p>
-                    Aspiring full stack web developer. Here, you can see my projects and skillset.
-                    Always eager to learn and grow, professionally as well as personally.
+                    Experienced Full Stack Web Developer with a strong interest in Cybersecurity.
+                    Here, you can see my projects and skillset.
+                    Always eager to learn and grow, professionally and personally.
                   </p>
                 </Grid>
                 <Grid item>
